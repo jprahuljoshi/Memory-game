@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory-Minder</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="">
+</head>
+<body> 
+
+    <h1>Memory Matching Game</h1>
+    <div class="messagesection" id="messagesection"></div>
+    <h2>Memory <span id="memoryID"></span></h2>
+    <!-- <button onclick="changePlayer()">Start</button> -->
+    <input type="button" value="Start" onClick="window.location.reload(true)">
+    <!-- <input type="button" value="Start" onClick="history.go(0)"> -->
+  
+    <!-- <audio preload="auto" id="dice__audio">
+        <source src="./sound/docs_assets_sounds_dice-sound.mp3"></source>
+    </audio> -->
+    <div class="stats-container">
+    <div id="movesCount"></div>
+    <div id="time"></div>
+    </div>
+    <section class="memory-game">
+        
+    <div class="memory-card" data-framework="apple" >
+        <img class="back-face" src="img\Spiderman.jpg" alt="Spiderman"/> 
+        <img class="front-face" src="img\apple.png" alt="Apple"/>
+    </div>
+    <div class="memory-card" data-framework="Kiwi">
+        <img class="back-face" src="img\Spiderman.jpg" alt="Spiderman"/>  
+        <img class="front-face" src="img\Kiwi.png" alt="Kiwi"/> 
+    </div>
+    <div class="memory-card" data-framework="Banana">
+        <img class="back-face" src="img\Spiderman.jpg" alt="Spiderman"/>
+        <img class="front-face" src="img\Banana.png" alt="Banana"/>
+    </div>
+    <div class="memory-card" data-framework="Grapes">
+        <img class="back-face" src="img\Spiderman.jpg" alt="Spiderman"/>
+        <img class="front-face" src="img\Grapes.png" alt="Grapes"/>
+    </div>
+    <div class="memory-card" data-framework="Orange">
+        <img class="back-face" src="img\Spiderman.jpg" alt="Spiderman"/>
+        <img class="front-face" src="img\Orange.png" alt="Orange"/>
+    </div>
+    <div class="memory-card" data-framework="Pineapple">
+        <img class="back-face" src="img\Spiderman.jpg" alt="Spiderman"/>
+        <img class="front-face" src="img\Pineapple.png" alt="Pineapple"/>
+    </div>
+    <div class="memory-card" data-framework="Strawberry">
+        <img class="back-face" src="img\Spiderman.jpg" alt="Spiderman"/>
+        <img class="front-face" src="img\Strawberry.png" alt="Strawberry"/>
+    </div>
+    <div class="memory-card" data-framework="Watermelon">
+        <img class="back-face" src="img\Spiderman.jpg" alt="Spiderman"/>
+        <img class="front-face" src="img\Watermelon.png" alt="Watermelon"/>
+    </div>
+    <div class="memory-card" data-framework="apple">
+        <img class="back-face" src="img\Spiderman.jpg" alt="Spiderman"/> 
+        <img class="front-face" src="img\apple.png" alt="Apple"/>
+    </div>
+    <div class="memory-card" data-framework="Kiwi">
+        <img class="back-face" src="img\Spiderman.jpg" alt="Spiderman"/>  
+        <img class="front-face" src="img\Kiwi.png" alt="Kiwi"/> 
+    </div>
+    <div class="memory-card" data-framework="Banana">
+        <img class="back-face" src="img\Spiderman.jpg" alt="Spiderman"/>
+        <img class="front-face" src="img\Banana.png" alt="Banana"/>
+    </div>
+    <div class="memory-card" data-framework="Grapes">
+        <img class="back-face" src="img\Spiderman.jpg" alt="Spiderman"/>
+        <img class="front-face" src="img\Grapes.png" alt="Grapes"/>
+    </div>
+    <div class="memory-card" data-framework="Orange">
+        <img class="back-face" src="img\Spiderman.jpg" alt="Spiderman"/>
+        <img class="front-face" src="img\Orange.png" alt="Orange"/>
+    </div>
+    <div class="memory-card" data-framework="Pineapple">
+        <img class="back-face" src="img\Spiderman.jpg" alt="Spiderman"/>
+        <img class="front-face" src="img\Pineapple.png" alt="Pineapple"/>
+    </div>
+    <div class="memory-card" data-framework="Strawberry">
+        <img class="back-face" src="img\Spiderman.jpg" alt="Spiderman"/>
+        <img class="front-face" src="img\Strawberry.png" alt="Strawberry"/>
+    </div>
+    <div class="memory-card" data-framework="Watermelon">
+        <img class="back-face" src="img\Spiderman.jpg" alt="Spiderman"/>
+        <img class="front-face" src="img\Watermelon.png" alt="Watermelon"/>
+    </div>
+    
+</section> 
+<!-- <div class="win">You won!</div> -->
+
+<script src="game.js"></script>  
+</body>
+</html>
